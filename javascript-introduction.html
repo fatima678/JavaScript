@@ -10,13 +10,44 @@
 		}
 
 	</script>
-
-
 </head>
+
 <body>
-	<h1>JavaScript in head</h1>
+	<h2>JavaScript in head</h2>
 	<p id="body">A paragraph</p>
 	<button  type="button" onclick="myFunction()">Try it</button>
 
 </body>
 </html>
+
+<body>
+	<h2>My first Web Page</h2>
+	<p>My first paragraph</p>
+	<p id="add"></p>
+	<script>
+		document.getElementById('add').innerHTML=4+5;
+	</script>
+</body>
+
+<!-- function document.write -->
+<body>
+	<h2>My first Web Page</h2>
+	<p>My first paragraph</p>
+	<script>
+		document.write(2+4);
+	</script>
+</body>
+
+<!-- document.write delete all exiting html after reloading -->
+<body>
+	<h2>My first Web Page</h2>
+	<p>My first paragraph</p>
+	<button type="button" onclick="document.write(7+3)">Try it</button>
+</body>
+<!-- function window.alert -->
+<!-- give alert after reloading page -->
+	<h2>My first Web Page</h2>
+	<p>My first paragraph</p>
+	<script>
+		window.alert("My name is fatima");
+	</script>
