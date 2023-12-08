@@ -54,5 +54,32 @@
 	 </script>
 	</body>
 </body>
+<body>
+	<h2>Functions</h2>
+	<p id="function"></p>
+	<script>
+		let x = myFunction(3 , 5);
+		document.getElementById('function').innerHTML=x;
 
+		function myFunction(a , b){
+		return a * b;
+			}	
+	</script>
+</body>
+<body>
+	<h2>Variables</h2>
+	<p id="variable"></p>
+	<script>
+		let car="fiat";
+		document.getElementById('variable').innerHTML = car;
+	</script>
+	<!-- objects -->
+	<h2>Objects</h2>
+	<p id="object"></p>
+	<script>
+		const person={firstname:"john", lastname:"doe", age:50, eyecolor:"blue"};
+		document.getElementById('object').innerHTML = person.firstname + " is" + person.age + "years old";
+	</script>
+
+</body>
 </html>
